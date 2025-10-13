@@ -14,8 +14,8 @@ export default function VenuePage() {
             <div className="space-y-6">
               <div className="rounded-2xl overflow-hidden shadow-xl">
                 <img
-                  src="/images/marriott-putrajaya-1.png"
-                  alt="Marriott Hotel Putrajaya aerial view"
+                  src="/images/marriott-putrajaya-hero.png"
+                  alt="Marriott Hotel Putrajaya exterior"
                   className="w-full h-[360px] object-cover"
                 />
               </div>

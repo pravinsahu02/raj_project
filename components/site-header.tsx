@@ -36,8 +36,9 @@ export function SiteHeader() {
       }`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 sm:h-18 flex items-center justify-between">
-        <Link href="/" className="font-bold text-lg sm:text-xl text-gray-900">
-          IAUP 2026
+        <Link href="/" className="flex items-center gap-2" aria-label="INTI International University - Home">
+          <img src="/images/inti-logo.png" alt="INTI International University" className="h-8 sm:h-10 w-auto" />
+          <span className="sr-only">INTI International University</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 lg:gap-8">
